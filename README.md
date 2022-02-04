@@ -1,6 +1,6 @@
 ### Project Fourteen - 100DaysOfCode
 # Adventure Game
-This is a simple program collects user inputs, and uses basic if/else if/else statements to run through various scenarios until the user amas enough points to win the game or lose all points and loses the game.
+This is a simple program collects user inputs, and uses basic *if/else if/else* statements to run through various scenarios until the user amas enough points to win the game or lose all points and loses the game.
 ## Background
 This project is part of my #100DaysOfCode learning streak. I intend to write a simple python program each day. Each project would:
 * be heavily commented for learning purposes;
