@@ -106,3 +106,36 @@ else:
     print("Sorry, you have to be 18+ to play."
           "\nBye!")
     quit()
+
+
+# Commentary
+'''
+Line 1:
+    Line 1 is a print statement that welcomes users to the game.
+
+Line 3-4:
+    Line 3 and 4 collects the name and age of the user respectively and assigns them
+    to variables. The age variable is evaluated using if else statements to allow the
+    user play if they above 18 years old.
+
+Line 6-92:
+    Line 9-19:
+        This block of code is a function that evaluates if a user has exhausted their
+        total health in which case they have lost the game, or they still have health
+        value greater than 0. This function is called several times in the main game
+        code to evaluate how much health the user has after every action or if they've
+        lost all their health. The code quits the program if the user has health less
+        than or equal to 0.
+        
+    This block of code is a function that holds the code to the actual game. The code
+    is a series of if else statements that evaluate based of the user input. Due to the
+    volume of if else statements in this block, I will pass on explaining what each line
+    does. But reading through carefully gives you a fair idea of the game structure.
+    
+Line 95-108:
+    This block of code although is after the main game() function evaluates before the
+    code runs. The code evaluates the user age collected from line 4 above and if they are
+    above 18 years, the code calls the game function and the user is allowed to play the
+    game. They can play with supervision if they are above 14 years or they can't play at
+    all.
+'''
